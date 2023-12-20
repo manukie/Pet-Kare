@@ -36,9 +36,8 @@ Uma api para um petshop fictício, que tem o objetivo de facilitar e aprimorar o
 - **Endpoint:** `/api/pets/<pet_id>/`
 - **Verbo HTTP:** `DELETE`
 - **Objetivo:** Deletar um pet com base em seu ID.
-- **Observação:** Substitua `<pet_id>` pelo identificador único do pet desejado.
 
-Utilize essas operações conforme necessário para interagir com a API de gerenciamento de pets. Se tiver dúvidas ou precisar de mais informações, consulte a documentação completa da API.
+**Observação:** Substitua `<pet_id>` pelo identificador único do pet desejado.
 
 
 # Preparando ambiente para execução dos testes
