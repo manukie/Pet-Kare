@@ -50,7 +50,7 @@ Objetivo: Deletar um pet com base em seu ID.
 
 Observação: Substitua <pet_id> pelo identificador único do pet desejado.
 
-## Preparando ambiente para execução dos testes
+# Preparando ambiente para execução dos testes
 
 Após você ter clonado o repositório, instalado as dependências e tudo mais, você deve fazer o seguinte:
 
