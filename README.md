@@ -4,6 +4,8 @@ Uma api para um petshop fictício, que tem o objetivo de facilitar e aprimorar o
 
 ## Preparando ambiente para execução dos testes
 
+Após você ter clonado o repositório, instalado as dependências e tudo mais, você deve fazer o seguinte:
+
 1. Verifique se os pacotes **pytest**, **pytest-testdox** e/ou **pytest-django** estão instalados globalmente em seu sistema:
 ```shell
 pip list
