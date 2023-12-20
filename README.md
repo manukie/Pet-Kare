@@ -2,53 +2,44 @@
 
 Uma api para um petshop fictício, que tem o objetivo de facilitar e aprimorar o controle e organização dos dados dos animais e e sua alta gama e clientes.
 
-## Rotas
+# Rotas
 
-### Cadastrar Pet
-Endpoint: /api/pets/
+## Cadastrar Pet
+- **Endpoint:** `/api/pets/`
+- **Verbo HTTP:** `POST`
+- **Objetivo:** Cadastrar um novo pet na base de dados.
 
-Verbo HTTP: POST
+## Listar Pets
+- **Endpoint:** `/api/pets/`
+- **Verbo HTTP:** `GET`
+- **Objetivo:** Listar todos os pets disponíveis.
 
-Objetivo: Cadastrar um novo pet na base de dados.
+## Filtragem por Trait
+- **Endpoint:** `/api/pets/`
+- **Verbo HTTP:** `GET`
+- **Objetivo:** Filtrar pets com base em uma trait específica.
+- **Parâmetro de Query:** `trait=nome_da_trait`
 
-### Listar Pets
-Endpoint: /api/pets/
+## Busca de Pet por ID
+- **Endpoint:** `/api/pets/<pet_id>/`
+- **Verbo HTTP:** `GET`
+- **Objetivo:** Buscar informações detalhadas sobre um pet específico.
+- **Observação:** Substitua `<pet_id>` pelo identificador único do pet desejado.
 
-Verbo HTTP: GET
+## Atualização de Pet por ID
+- **Endpoint:** `/api/pets/<pet_id>/`
+- **Verbo HTTP:** `PATCH`
+- **Objetivo:** Atualizar informações de um pet específico.
+- **Observação:** Substitua `<pet_id>` pelo identificador único do pet desejado.
 
-Objetivo: Listar todos os pets disponíveis.
+## Deleção de Pet por ID
+- **Endpoint:** `/api/pets/<pet_id>/`
+- **Verbo HTTP:** `DELETE`
+- **Objetivo:** Deletar um pet com base em seu ID.
+- **Observação:** Substitua `<pet_id>` pelo identificador único do pet desejado.
 
-### Filtragem por Trait
-Endpoint: /api/pets/
+Utilize essas operações conforme necessário para interagir com a API de gerenciamento de pets. Se tiver dúvidas ou precisar de mais informações, consulte a documentação completa da API.
 
-Verbo HTTP: GET
-
-Objetivo: Filtrar pets com base em uma trait específica.
-
-Parâmetro de Query: trait=nome_da_trait
-
-### Busca de Pet por ID
-Endpoint: /api/pets/<pet_id>/
-
-Verbo HTTP: GET
-
-Objetivo: Buscar informações detalhadas sobre um pet específico.
-
-### Atualização de Pet por ID
-Endpoint: /api/pets/<pet_id>/
-
-Verbo HTTP: PATCH
-
-Objetivo: Atualizar informações de um pet específico.
-
-### Deleção de Pet por ID
-Endpoint: /api/pets/<pet_id>/
-
-Verbo HTTP: DELETE
-
-Objetivo: Deletar um pet com base em seu ID.
-
-Observação: Substitua <pet_id> pelo identificador único do pet desejado.
 
 # Preparando ambiente para execução dos testes
 
